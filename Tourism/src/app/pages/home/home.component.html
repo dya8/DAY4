@@ -1,0 +1,21 @@
+
+
+
+<div>
+  <h1 style="text-align: center;">INCREDIBLE INDIA</h1>
+</div>
+  <owl-carousel-o [options]="customOptions">
+
+    <ng-container *ngFor="let slide of cimages">
+      <ng-template carouselSlide [id]="slide.id.toString()">
+        <img class="img" [src]="slide.src" [alt]="slide.alt">
+      </ng-template>
+    </ng-container>
+
+  </owl-carousel-o>
+  <div>
+    <h1 style="text-align: center;">About the Culture</h1>
+    <p style="text-align: center;">
+      India's rich cultural tapestry, vibrant festivals, and timeless heritage promise an unforgettable journey through history and tradition <br>From the majestic Himalayas to serene backwaters, <br>every corner of India invites you to experience its unparalleled beauty and warmth 
+    </p>
+  </div>

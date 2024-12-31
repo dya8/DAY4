@@ -1,0 +1,31 @@
+/* Footer */
+.footer {
+    background-color: #212529;
+    color: #ffffff;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+    width:100%;
+}
+
+.footer p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-link {
+    color: #ffffff;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-link:hover {
+    color: hsl(46, 100%, 46%);
+}
